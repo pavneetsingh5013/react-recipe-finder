@@ -88,8 +88,8 @@ function App() {
        </SearchComponent>
         </Header>
         <RecipeListContainer>
-          {recipeList.length && recipeList.map((recipeObj)=> (<RecipeComponent recipeObj={recipeObj.recipe}/>
-          ))}
+          {recipeList.length ? recipeList.map((recipeObj)=> (<RecipeComponent recipeObj={recipeObj.recipe}/>
+          )): <Placeholder src="food-logo.svg"/>}
       
         
        
