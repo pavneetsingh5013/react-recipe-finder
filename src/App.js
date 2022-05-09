@@ -26,7 +26,30 @@ const RecipeComponent=(props)=>{
   
   return(
     <>
-        
+        <Dialog open={show}>
+        <DialogTitle id="alert-dialog-slide-title">Ingredients</DialogTitle>
+        <DialogContent> 
+          <table>
+            <thead>
+              <th>Ingredients</th>
+              <th>Weight</th>
+            </thead>
+            <tbody>
+              {props.recipeObj.ingredients.map((ingredientsObj)=>
+              (
+                <tr>
+                  <td>{ingredientsObj.text}</td>
+                  <td>{ingredientsObj.weight}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </DialogContent>
+        <DialogActions>
+        <IngredientsText onClick={()=>window.open(props.recipeObj.url)}>See More</IngredientsText>
+     <SeeMoreText onClick={()=>setShow(false) }>Close</SeeMoreText> 
+        </DialogActions>
+        </Dialog>
 
         <RecipeContainer>
         <CoverImage src={props.recipeObj.image}/>
