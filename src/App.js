@@ -81,15 +81,15 @@ function App() {
   return (
     <Container>
       <Header>
-       <AppNameComponent><AppIcon src="food-logo.svg"/>Recipe Searcher</AppNameComponent> 
+       <AppNameComponent><AppIcon src="react-recipe-finder/foodlogo.svg"/>Recipe Searcher</AppNameComponent> 
        <SearchComponent>
-         <img src="/search-icon.svg"/>
+         <img src="/react-recipe-finder/icons8-search-40.svg"/>
          <Input placeholder="Search recipe ingredients" onChange={OnTextChange}/>
        </SearchComponent>
         </Header>
         <RecipeListContainer>
           {recipeList.length ? recipeList.map((recipeObj)=> (<RecipeComponent recipeObj={recipeObj.recipe}/>
-          )): <Placeholder src="food-logo.svg"/>}
+          )): <Placeholder src="/react-recipe-finder/foodlogo.svg"/>}
       
         
        

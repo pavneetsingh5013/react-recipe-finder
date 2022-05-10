@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const Header=styled.div`
 color: white;
-background-color: black;
+background-color: #2980B9;
 padding:10px;
 display:flex;
 align-items:center;
@@ -14,7 +14,7 @@ box-shadow:0 3px 6px #555
 export const AppNameComponent=styled.div`
 display:flex;
 align-items:center;
-`
+`;
 export const SearchComponent=styled.div`
 display:flex;
 flex-direction:row;
@@ -24,7 +24,7 @@ padding:10px;
 width:50%;
 border-radius:15px;
 
-`
+`;
 export const AppIcon=styled.img`
 width:96px;
 height:86px;
