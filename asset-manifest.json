@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/react-recipe-finder/static/css/main.e6c13ad2.css",
-    "main.js": "/react-recipe-finder/static/js/main.f74a78d5.js",
+    "main.js": "/react-recipe-finder/static/js/main.f20c762f.js",
     "static/js/787.3803e7e0.chunk.js": "/react-recipe-finder/static/js/787.3803e7e0.chunk.js",
+    "static/media/foodlogo.svg": "/react-recipe-finder/static/media/foodlogo.d3e4107b429abf579cb64c026706e579.svg",
+    "static/media/icons8-search-40.svg": "/react-recipe-finder/static/media/icons8-search-40.a9669ab4ea715c26d2732da92275ac03.svg",
     "index.html": "/react-recipe-finder/index.html",
     "main.e6c13ad2.css.map": "/react-recipe-finder/static/css/main.e6c13ad2.css.map",
-    "main.f74a78d5.js.map": "/react-recipe-finder/static/js/main.f74a78d5.js.map",
+    "main.f20c762f.js.map": "/react-recipe-finder/static/js/main.f20c762f.js.map",
     "787.3803e7e0.chunk.js.map": "/react-recipe-finder/static/js/787.3803e7e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f74a78d5.js"
+    "static/js/main.f20c762f.js"
   ]
 }
