@@ -7,6 +7,9 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from '@material-ui/core/DialogContent';
 import Dialog from '@material-ui/core/Dialog'
+import foodicon from './foodlogo.svg';
+import searchic from './icons8-search-40.svg'
+
 const Container=styled.div`
 display:flex;
 flex-direction:column;
@@ -81,9 +84,9 @@ function App() {
   return (
     <Container>
       <Header>
-       <AppNameComponent><AppIcon src="react-recipe-finder/foodlogo.svg"/>Recipe Searcher</AppNameComponent> 
+       <AppNameComponent><AppIcon src={foodicon}/>Recipe Searcher</AppNameComponent> 
        <SearchComponent>
-         <img src="/react-recipe-finder/icons8-search-40.svg"/>
+         <img src={searchic}/>
          <Input placeholder="Search recipe ingredients" onChange={OnTextChange}/>
        </SearchComponent>
         </Header>
